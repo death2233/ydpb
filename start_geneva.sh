@@ -1,4 +1,6 @@
 #!/bin/bash
+# 克隆仓库
+sudo git clone https://github.com/death2233/ydpb /root/ydpb
 
 # 安装依赖
 yum install -y python3 python3-devel gcc gcc-c++ git libnetfilter* libffi-devel
