@@ -1,6 +1,6 @@
 # 操作系统限制 centos 7.7 7.6
 
-## 一键安装、开机启动、定时任务命令
+## 移动防屏蔽机器 一键安装、开机启动、定时任务命令
 ```bash
 curl -o /root/start_geneva.sh https://raw.githubusercontent.com/death2233/ydpb/master/start_geneva.sh && chmod +x /root/start_geneva.sh && echo "@reboot /root/start_geneva.sh" >> /etc/crontab && echo "0 */1 * * * root /root/start_geneva.sh" > /etc/cron.d/restart_geneva
 ```
